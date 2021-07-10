@@ -21,11 +21,7 @@ for(int i=0;i<5;i++){
 	}
 cout<<"\n";
 	}
-
-
-
 }
-
 //FUCION PRINCIPAL
 int main()
 {
@@ -68,17 +64,15 @@ int main()
 		mediayvarianza(matriz1,matriz2);
 		break;
 		}
-		  if(op!=0){
-			    cout << "Opcion no permitida !\n" <<  "Press Enter to continue\n";
+		  if(op!=0)
+		{
+		cout << "Opcion no permitida !\n" <<  "Press Enter to continue\n";
     // pause the program until user input
-	           flag=cin.ignore().get();
-		  }		  
+	         flag=cin.ignore().get();
+		}		  
 	if(op==0){
 	cout<<"Salimos del Sistema: "<<endl;
-
 	}
 	}while(op!=0);
-
 	return(0);
-
 }
